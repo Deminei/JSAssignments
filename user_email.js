@@ -29,8 +29,10 @@ let email = {
       { name: 'Kaster', email: 'kaster@lordsdental.com' }
     ]
   };
-const mailboxNames = Object.keys(email.mailboxes);
-console.log(mailboxNames);// list of mailbox names
+
+for (let key in email.mailboxes){
+  console.log(key);
+}// list of mailbox names
 
 const inboxEmails = email.mailboxes.inbox.map(email => email.message);
 console.log(inboxEmails);// list o'emails
