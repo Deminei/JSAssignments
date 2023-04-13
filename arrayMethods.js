@@ -26,3 +26,6 @@ console.log(premiumMembers);
 console.log(lastNames);
 console.log(fullNames);
 console.log(totalLogins);//console-logged all array methods to see results
+"(\ /)"
+"(O.o)"
+"(> <)"
